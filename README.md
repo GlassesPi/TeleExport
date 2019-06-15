@@ -3,6 +3,8 @@ A script that converts JSON exported contact list from Telegram to an importable
 
 For exporting telegram contacts list follow these steps:
 
+0. Download the <a href="https://github.com/GlassesPi/TeleExport/blob/master/TeleExport.exe">TeleExport.exe</a>
+
 1. Go to Settings page of a desktop-based Telegram and select Advanced
 
 ![First Step](https://github.com/GlassesPi/TeleExport/blob/master/1st-step.png)
@@ -23,7 +25,7 @@ For exporting telegram contacts list follow these steps:
 
 ![Sixth Step](https://github.com/GlassesPi/TeleExport/blob/master/6th-step.png)
 
-![Seventh Step](https://github.com/GlassesPi/TeleExport/blob/master/7th-step.png)
+![Seventh Step](https://github.com/GlassesPi/TeleExport/blob/master/7th-step.jpg)
 
 5. Now, put the TeleExport.exe next to the result.json and run it. In few seconds a CSV file will be generated
 

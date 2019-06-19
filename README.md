@@ -1,5 +1,5 @@
 # TeleExport
-A script that converts JSON exported contact list from Telegram to an importable CSV file. Simply put the result.json that exported by Telegram next to the TeleExport script/executable and run that.
+A script that converts JSON exported contact list from Telegram to an importable CSV file and VCF file. Simply put the result.json that exported by Telegram next to the TeleExport script/executable and run that.
 
 For exporting telegram contacts list follow these steps:
 
@@ -27,6 +27,6 @@ For exporting telegram contacts list follow these steps:
 
 ![Seventh Step](https://github.com/GlassesPi/TeleExport/blob/master/7th-step.jpg)
 
-5. Now, put the TeleExport.exe next to the result.json and run it. In few seconds a CSV file will be generated
+5. Now, put the TeleExport.exe next to the result.json and run it. In few seconds a CSV and VCF file will be generated
 
 ![Eighth Step](https://github.com/GlassesPi/TeleExport/blob/master/8th-step.png)

@@ -1,5 +1,27 @@
 # TeleExport
-A script that converts JSON exported contact list from Telegram to an importable CSV file and VCF file. Simply put the result.json that exported by Telegram next to the TeleExport script/executable and run that.
+A dependency-free Python script that converts a Telegram JSON contact export to importable CSV and VCF files. It supports Windows and Linux, including Debian 12 and Debian 13.
+
+## Debian 12 and 13
+
+Python 3 is included in a standard Debian installation. No third-party Python packages are required.
+
+1. Download `TeleExport.py` and place it next to Telegram's exported `result.json` file.
+2. Open a terminal in that directory.
+3. Run:
+
+   ```sh
+   python3 TeleExport.py
+   ```
+
+The command creates `contacts.csv` and `contacts.vcf`. You can also provide custom paths:
+
+```sh
+python3 TeleExport.py telegram-export.json --csv contacts.csv --vcf contacts.vcf
+```
+
+Alternatively, make the script directly executable with `chmod +x TeleExport.py`, then run `./TeleExport.py`.
+
+## Export contacts from Telegram
 
 For exporting telegram contacts list follow these steps:
 
@@ -27,6 +49,6 @@ For exporting telegram contacts list follow these steps:
 
 ![Seventh Step](https://github.com/GlassesPi/TeleExport/blob/master/7th-step.jpg)
 
-5. Now, put the TeleExport.exe next to the result.json and run it. In few seconds a CSV and VCF file will be generated
+5. Put `TeleExport.exe` (Windows) or `TeleExport.py` (Linux) next to `result.json` and run it. In a few seconds, CSV and VCF files will be generated.
 
 ![Eighth Step](https://github.com/GlassesPi/TeleExport/blob/master/8th-step.png)
